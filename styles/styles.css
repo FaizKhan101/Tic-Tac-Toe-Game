@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;    color: rgb(34, 34, 34);
+    background-color: rgb(238, 231, 231);
+}
+
+#main-header {
+    background-color: rgb(8, 8, 87);
+    color: whitesmoke;
+    padding: 1rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(8, 8, 87);
+    color: whitesmoke;
+    border: 1px solid rgb(8, 8, 87);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(8, 8, 87);
+}
+
+.btn:hover {
+    background-color: rgb(16, 16, 173);
+    border-color: rgb(16, 16, 173);
+}
+
+.btn-alt:hover {
+    background-color: rgb(208, 191, 248);
+    border-color:  rgb(208, 191, 248);
+}
